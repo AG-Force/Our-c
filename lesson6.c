@@ -1,21 +1,22 @@
-#include<stdio.h>
-
-
+#include <stdio.h>
 
 int main()
-
-
 {
-int  age, year, year_current;
-printf("enter your birthyear2 please: ");
-scanf("%d",&year);
+    int age, year, year_current;
 
-printf("enter the current year: ");
-scanf("%d", &year_current);
-age = year_current - year;
-printf("your age is : %d",age);
+    // Prompting the user to enter their birth year
+    printf("Enter your birth year: ");
+    scanf("%d", &year);
 
+    // Prompting the user to enter the current year
+    printf("Enter the current year: ");
+    scanf("%d", &year_current);
 
+    // Calculating the age by subtracting the birth year from the current year
+    age = year_current - year;
+
+    // Displaying the calculated age
+    printf("Your age is: %d", age);
 
     return 0;
 }
