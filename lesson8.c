@@ -16,7 +16,7 @@ int main()
         printf("The number is even :) ");
     }
     // Check if the number is odd
-    else if (N % 2 == 1) {
+    else {
         printf("The number is odd ");
     }
     
