@@ -27,11 +27,9 @@ int main()
     scanf("%d", &a2);
 
     // Check if the number is negative
-    if (a2 < 0)
-        printf("%d", -1 * a2);
+    if (a2 < 0) printf("%d", -1 * a2);
     // If the number is not negative, print the number
-    else
-        printf("%d", a2);
+    else        printf("%d", a2);
 
     return 0;
 }
